@@ -1,8 +1,11 @@
-# Hello world,
+# Introduction
 
-Welcome to this playground about this amazing technology. I'll show you ...
+Bienvenue sur ce tuto du design pattern Composite !
 
-//Quizz
+# Quizz
+
+Et maintenant, un quizz pour voir si vous avez suivi !
+
 ?[What is the answer to Life, the Universe and Everything?]
 -[ ] There is no answer to that!
 -[ ] Sleep and eat
