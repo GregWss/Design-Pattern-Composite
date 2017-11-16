@@ -2,8 +2,3 @@ title: Tuto Design Pattern Composite
 plan:
 - title: Design Pattern Composite
   statement: statement.md
-
-projects:
-  java:
-    root: /java-project
-    runner: java:3
