@@ -1,4 +1,6 @@
+# Hello world,
 
+Welcome to this playground about this amazing technology. I'll show you ...
 
 //Quizz
 ?[What is the answer to Life, the Universe and Everything?]
