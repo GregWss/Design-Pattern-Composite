@@ -109,18 +109,6 @@ public class Poids implements Produit {
     private String descriptif;
 }
 
-public class ProduitException extends RuntimeException {
-    public ProduitException() {
-        super();
-    }
-    public ProduitException(String msg) {
-        super(msg);
-    }
-    public ProduitException(Exception e) {
-        super(e);
-    }
-}
-
 public class ProduitComposite implements Produit {
 
     /** Creates a new instance of ProduitComposite */
@@ -228,35 +216,37 @@ public class ProduitComposite implements Produit {
 
 }
 
-Barre maBarre = new Barre();
-maBarre.setPrix(25f);
-maBarre.setDescriptif("Barre d'haltérophilie");
-maBarre.setCodeBarre("BA0001");
-maBarre.setLongueur(150f);
+public static void main(args[]) {
+    Barre maBarre = new Barre();
+    maBarre.setPrix(25f);
+    maBarre.setDescriptif("Barre d'haltérophilie");
+    maBarre.setCodeBarre("BA0001");
+    maBarre.setLongueur(150f);
+    
+    Poids leger = new Poids();
+    leger.setPrix(15f);
+    leger.setDescriptif("Poids d'haltère");
+    leger.setCodeBarre("PA0001");
+    leger.setPoids(0.5f);
+    
+    Poids moyen = new Poids();
+    moyen.setPrix(17f);
+    moyen.setDescriptif("Poids d'haltère");
+    moyen.setCodeBarre("PA0002");
+    moyen.setPoids(1f);
+    
+    Poids lourd = new Poids();
+    lourd.setPrix(19f);
+    lourd.setDescriptif("Poids d'haltère");
+    lourd.setCodeBarre("PA0003");
+    lourd.setPoids(1.5f);
 
-Poids leger = new Poids();
-leger.setPrix(15f);
-leger.setDescriptif("Poids d'haltère");
-leger.setCodeBarre("PA0001");
-leger.setPoids(0.5f);
-
-Poids moyen = new Poids();
-moyen.setPrix(17f);
-moyen.setDescriptif("Poids d'haltère");
-moyen.setCodeBarre("PA0002");
-moyen.setPoids(1f);
-
-Poids lourd = new Poids();
-lourd.setPrix(19f);
-lourd.setDescriptif("Poids d'haltère");
-lourd.setCodeBarre("PA0003");
-lourd.setPoids(1.5f);
-
-ProduitComposite haltere = new ProduitComposite();
-haltere.add(maBarre);
-haltere.add(leger);
-haltere.add(moyen);
-haltere.add(lourd);
+    ProduitComposite haltere = new ProduitComposite();
+    haltere.add(maBarre);
+    haltere.add(leger);
+    haltere.add(moyen);
+    haltere.add(lourd);
+}
 
 # Quizz
 
