@@ -2,7 +2,7 @@
 
 Premièrement on crée l'interface qui sera implémentez par toutes les autres classes.
 
-```java runnable
+```java Runnable
 public interface Composant {
 
     public float getPoids();
@@ -14,7 +14,7 @@ public interface Composant {
 
 Ensuite on crée les différentes classes que l'on pourra composer.
 
-```java runnable
+```java Runnable
 public class Remorque implements Composant {
 
 	private int poids;
@@ -49,7 +49,7 @@ public class Tracteur implements Composant {
 
 Puis, on implémente la classe composite Composite, avec les méthodes add et remove qui permettront d'ajouter ou de supprimer plusieurs éléments à une composition.
 
-```java runnable
+```java Runnable
 public class CamionComposite implements Composant {
 
 	private Collection children;
