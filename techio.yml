@@ -1,13 +1,13 @@
 title: Design Pattern Composite
 plan:
-- title: Présentation
+- title: Presentation
   statement: intro.md
   
 - title: Le design pattern
-statement: composite.md
+  statement: composite.md
 
 - title: Un exemple
-statement: exemple.md
+  statement: exemple.md
 
 projects:
   java:
