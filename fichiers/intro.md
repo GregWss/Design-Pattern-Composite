@@ -10,6 +10,6 @@ Il est toutefois beaucoup plus dur de gérer un ensemble d'objets en tant qu'un 
 
 ![Image Heritage](exProbleme.PNG)
 
-Comme nous pouvons voir sur cette image, en java lorsque l'on veut créer des objets composés, il faut créer une classe par objet.
+Comme nous pouvons voir sur cette image, en java lorsque l'on veut créer des objets composés, il faut créer une classe par objet. De plus, pour supprimer un élément d'un objet, il faut directement aller dans le code de sa classe.
 
 Comment pouvons nous faciliter la gestion de cet ensemble d'objets ?
