@@ -61,12 +61,12 @@ public class CamionComposite implements Composant {
   
     public void add(Composant composant){
      
-        children.add(produit);
+        children.add(composant);
     }
 
   
-    public void remove(Produit produit){
-        children.remove(produit);
+    public void remove(Composant composant){
+        children.remove(composant);
     }
 
     public Iterator getChildren() {
@@ -143,12 +143,12 @@ class CamionComposite implements Composant {
   
     public void add(Composant composant){
      
-        children.add(produit);
+        children.add(composant);
     }
 
   
-    public void remove(Produit produit){
-        children.remove(produit);
+    public void remove(Composant composant){
+        children.remove(composant);
     }
 
     public Iterator getChildren() {
