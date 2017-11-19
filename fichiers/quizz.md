@@ -6,17 +6,14 @@ Et maintenant, un quizz pour voir si vous avez suivi !
 -[ ] Oui !
 -[x] Non !
 
-?[What is the answer to Life, the Universe and Everything?]
--[ ] There is no answer to that!
--[ ] Sleep and eat
--[x] Easy, this is 42
--[ ] Peace & Love
+?[Le design pattern Composite permet d'additioner les propriétés de différents objets.]
+-[x] Vrai !
+-[ ] Faux !
 
-?[What is the answer to Life, the Universe and Everything?]
--[ ] There is no answer to that!
--[ ] Sleep and eat
--[x] Easy, this is 42
--[ ] Peace & Love
+?[Combien le design pattern Composite permet d'additioner de feuilles ?]
+-[ ] 2
+-[ ] 4
+-[x] Une infinité
 
 ?[What is the answer to Life, the Universe and Everything?]
 -[ ] There is no answer to that!
