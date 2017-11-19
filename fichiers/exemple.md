@@ -95,6 +95,8 @@ Maintenant on implémente le main pour utiliser le Composite
 
 // { autofold
 
+import java.util.*;
+
 interface Composant {
 
     public float getPoids();
