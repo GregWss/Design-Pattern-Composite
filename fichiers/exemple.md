@@ -1,3 +1,5 @@
+![Image Heritage](objetComposite.PNG)
+
 # Première étape.
 
 Premièrement on crée l'interface qui sera implémentée par toutes les autres classes.
