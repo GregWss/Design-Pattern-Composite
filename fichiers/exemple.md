@@ -95,13 +95,13 @@ Maintenant on implémente le main pour utiliser le Composite
 
 // { autofold
 
-public interface Composant {
+interface Composant {
 
     public float getPoids();
 
 }
 
-public class Remorque implements Composant {
+class Remorque implements Composant {
 
 	private int poids;
    
@@ -116,7 +116,7 @@ public class Remorque implements Composant {
 
 }
 
-public class Tracteur implements Composant {
+class Tracteur implements Composant {
 
 	private int poids;
    
@@ -130,7 +130,7 @@ public class Tracteur implements Composant {
     }
 }
 
-public class CamionComposite implements Composant {
+class CamionComposite implements Composant {
 
 	private Collection children;
 
