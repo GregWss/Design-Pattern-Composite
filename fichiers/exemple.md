@@ -1,6 +1,14 @@
+# Exemple
+
+Prenons l'exemple d'un camion semi-remorque.
+
+Ce dernier est composé d'un tracteur et d'une remorque, qui ont un poid séparé mais également un poid camion entier. Un tracteur routier doit également pourvoir rouler sans remorque. Nous disposons donc du diagramme suivant :
+
 ![Image Heritage](objetComposite.PNG)
 
 # Première étape.
+
+Passons à l'implémentation d'un pattern Composite.
 
 Premièrement on crée l'interface qui sera implémentée par toutes les autres classes.
 
