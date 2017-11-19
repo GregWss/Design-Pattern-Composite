@@ -9,4 +9,6 @@ Il est toutefois beaucoup plus dur de gérer un ensemble d'objets en tant qu'un 
 
 ![Image Heritage](exProbleme.PNG)
 
+Comme nous pouvons voir sur cette image, 
+
 Comment pouvons nous faciliter la gestion de cet ensemble d'objets ?
