@@ -20,7 +20,7 @@ Et maintenant, un quizz pour voir si vous avez suivi !
 -[x] Vrai !
 -[ ] Faux !
 
-#### Merci d'avoir suivi ce playground !
+#### Merci d'avoir suivi ce tutoriel !
 
 ::: Plus d'infos/Références
 + [Le Composite](http://smeric.developpez.com/java/uml/composite/)
