@@ -1,6 +1,6 @@
 # Première étape.
 
-Premièrement on crée l'interface qui sera implémentez par toutes les autres classes.
+Premièrement on crée l'interface qui sera implémentée par toutes les autres classes.
 
 ```java Runnable
 public interface Composant {
