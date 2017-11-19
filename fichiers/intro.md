@@ -9,3 +9,5 @@ Il est toutefois beaucoup plus dur de gérer un ensemble d'objets en tant qu'un 
 En effet, 
 
 Image
+
+Comment pouvons nous faciliter la gestion de cet ensemble d'objets ?
