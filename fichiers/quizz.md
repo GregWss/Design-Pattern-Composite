@@ -22,7 +22,7 @@ Et maintenant, un quizz pour voir si vous avez suivi !
 
 #### Merci d'avoir suivi ce tutoriel !
 
-::: Plus d'infos/Références
+::: Références
 + [Le Composite](http://smeric.developpez.com/java/uml/composite/)
 + [Pattern Composite (wikipédia)](https://fr.wikipedia.org/wiki/Objet_composite)
 + [Composite Design Pattern](https://sourcemaking.com/design_patterns/composite)
