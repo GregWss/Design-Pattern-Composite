@@ -16,6 +16,6 @@ Et maintenant, un quizz pour voir si vous avez suivi !
 -[ ] 42
 -[x] Une infinité
 
-?[Toutes les classe implémentent l'interface Composant]
+?[Toutes les classes implémentent l'interface Composant]
 -[x] Vrai !
 -[ ] Faux !
