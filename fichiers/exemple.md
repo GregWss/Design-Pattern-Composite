@@ -23,7 +23,6 @@ public class Remorque implements Composant {
 		this.poids = poids;
     }
 
-    @Override
     public int getPoids() {
         return this.poids;
     }
@@ -38,7 +37,6 @@ public class Tracteur implements Composant {
 		this.poids = poids;
     }
 	
-    @Override
     public int getPoids() {
         return this.poids;
     }
@@ -73,7 +71,6 @@ public class CamionComposite implements Composant {
         return children.iterator();
     }
 	
-    @Override
     public int getPoids() {
         int result = 0;
         for (Iterator i = children.iterator(); i.hasNext(); ) {
@@ -100,7 +97,7 @@ import java.util.*;
 
 interface Composant {
 
-    public float getPoids();
+    public int getPoids();
 
 }
 
@@ -112,7 +109,7 @@ class Remorque implements Composant {
 		this.poids = poids;
     }
 	
-    @Override
+  
     public int getPoids() {
         return this.poids;
     }
@@ -126,8 +123,7 @@ class Tracteur implements Composant {
     public Tracteur(int poids) {
 		this.poids = poids;
     }
-	
-    @Override
+
     public int getPoids() {
         return this.poids;
     }
@@ -156,7 +152,7 @@ class CamionComposite implements Composant {
         return children.iterator();
     }
 	
-    @Override
+
     public int getPoids() {
         int result = 0;
         for (Iterator i = children.iterator(); i.hasNext(); ) {
