@@ -13,6 +13,7 @@ Et maintenant, un quizz pour voir si vous avez suivi !
 ?[Combien le design pattern Composite permet d'additioner de feuilles ?]
 -[ ] 2
 -[ ] 4
+-[ ] 42
 -[x] Une infinité
 
 ?[What is the answer to Life, the Universe and Everything?]
