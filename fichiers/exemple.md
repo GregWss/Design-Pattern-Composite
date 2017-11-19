@@ -73,6 +73,7 @@ public class CamionComposite implements Composant {
         return children.iterator();
     }
 	
+	@Override
     public int getPoids() {
         int result = 0;
         for (Iterator i = children.iterator(); i.hasNext(); ) {
@@ -155,6 +156,7 @@ class CamionComposite implements Composant {
         return children.iterator();
     }
 	
+	@Override
     public int getPoids() {
         int result = 0;
         for (Iterator i = children.iterator(); i.hasNext(); ) {
