@@ -6,3 +6,5 @@ plan:
   statement: fichiers/composite.md
 - title: Un exemple
   statement: fichiers/exemple.md
+- title: Le quizz
+  statement: fichiers/quizz.md
