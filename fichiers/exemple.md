@@ -85,10 +85,7 @@ public class CamionComposite implements Composant {
         return result;
     }
 }
-
-
-
-
+```
 
 # Quatrième étape.
 
