@@ -2,6 +2,11 @@
 
 Et maintenant, un quizz pour voir si vous avez suivi !
 
+?[Le design pattern Composite est un pattern :]
+-[ ] De construction
+-[x] De structuration
+-[ ] De comportement
+
 ?[Sans design pattern Composite, peut on modifier un objet composé sans toucher au code ?]
 -[ ] Oui !
 -[x] Non !
